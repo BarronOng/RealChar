@@ -18,10 +18,10 @@ export default function Header() {
 
   return (
     <Navbar className='h-20 bg-header'>
-      <div className="flex items-end"> {/* Align items to the bottom */}
+      <div className="flex items-center"> {/* Align items to the bottom */}
         <NavbarBrand>
           <Link href='/'>
-            <Image priority src={logo} alt='RealChar.ai' className="block" />
+            <Image priority src={logo} alt='aiji-tech.com' className="block" />
           </Link>
         </NavbarBrand>
         <span className="ml-2 flex items-end text-sm"> {/* Space after the image */}

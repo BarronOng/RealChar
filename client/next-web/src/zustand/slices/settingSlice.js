@@ -3,7 +3,7 @@ export const createSettingSlice = (set, get) => ({
   preferredLanguage: new Set(['Auto Detect']),
   selectedSpeaker: new Set(['default']),
   selectedMicrophone: new Set(['default']),
-  selectedModel: new Set(['rebyte']),
+  selectedModel: new Set(['gpt-4']),
   isMute: false,
   disableMic: false,
   isJournalMode: false,
