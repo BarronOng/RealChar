@@ -84,16 +84,6 @@ export const createCharacterSlice = (set, get) => ({
       text: 'Eleven Labs',
       selected_voice_id: 'EXAVITQu4vr4xnSDxMaL',
     },
-    {
-      value: 'GOOGLE_TTS',
-      text: 'Google TTS',
-      selected_voice_id: 'en-US-Studio-O',
-    },
-    {
-      value: 'EDGE_TTS',
-      text: 'Edge TTS',
-      selected_voice_id: 'en-US-ChristopherNeural',
-    },
   ],
   voiceOptions: {
     ELEVEN_LABS: [

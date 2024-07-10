@@ -23,11 +23,6 @@ export const createSettingSlice = (set, get) => ({
   ],
   models: [
     {
-      id: 'rebyte',
-      name: 'ReByte',
-      tooltip: 'ReByte platform model, good for most conversation',
-    },
-    {
       id: 'gpt-3.5-turbo-16k',
       name: 'GPT-3.5',
       tooltip: 'Fastest model, good for most conversation',

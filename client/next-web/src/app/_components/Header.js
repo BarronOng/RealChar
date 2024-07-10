@@ -25,7 +25,7 @@ export default function Header() {
           </Link>
         </NavbarBrand>
         <span className="ml-2 flex items-end text-sm"> {/* Space after the image */}
-          powered by&nbsp;<a href="https://rebyte.ai/" className="text-base"> ReByte.ai</a>
+          powered by&nbsp;<a href="https://aiji-tech.com/" className="text-base"> aiji-tech.com</a>
         </span>
       </div>
       <NavbarContent justify='end' className="h-full flex items-center">
