@@ -9,9 +9,9 @@ const prompt = Prompt({
 });
 
 export const metadata = {
-  title: 'RealChar.',
+  title: 'Aiji-Tech',
   description:
-    'Create, customize and talk to your AI Character/Companion in realtime',
+    'Create, customize and talk to your AI Companion in realtime',
 };
 
 export default function RootLayout({ children }) {
