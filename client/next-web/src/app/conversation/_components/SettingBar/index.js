@@ -43,7 +43,6 @@ export default function SettingBar({
         <div className="flex gap-8">
           <LanguageModelControl />
           <ShareButton />
-          <SettingsButton />
         </div>
         {isTextMode && (
           <div className="flex gap-2">

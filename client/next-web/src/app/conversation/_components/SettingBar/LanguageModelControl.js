@@ -82,8 +82,7 @@ export default function LanguageModelControl() {
             }}
           >
             <div className="font-light flex flex-col">
-              <span>{item.name}</span>
-              <span className="text-tiny whitespace-normal text-white/50">{item.tooltip}</span>
+              {item.name}
             </div>
           </SelectItem>
         ))}
